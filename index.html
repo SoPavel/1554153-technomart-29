@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html class="main-page" lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,22 +9,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Техномарт</title>
 </head>
-
 <body class="page-body">
     <header class="header">
-      <div class="main-logo__1">
-      <a class="header-link" href="#">
-        <p class="tech-logo__1">Техномарт</p>
+      <div class="header__logo">
+      <a class="header__link" href="#">
+        <p class="header__link_name">Техномарт</p>
       </a>
       </div>
-      <form class="field-1" action="get">
+      <form class="search-form" action="get">
           <input type="text" class="search-txt" placeholder="Поиск:">
       </form>
         <a class="header-mark" href="#">Закладки: 0</a>
         <a class="header-basket" href="#">Корзина: 0</a>
       <button class="header-order" type="submite">Оформить заказ
       </button>
-
     </header>
 
               <!-- End header -->
@@ -58,17 +56,17 @@
       </nav>
     </section>
                     <!-- End section -->
-   <main>
+   <main class="main">
     <section class="second">
       <div class="main-class__links">
         <ul class="main-links">
           <li class="feature-link">
             <div class="materials">
               <a href="#">
-                <h4 class="name-1">Материалы</h4>
+                <h4 class="feature-link__materials_name">Материалы</h4>
                 <img src="img/icon-1.svg" alt="paint-backet">
-                <button class="btn-type__1" type="submit">
-                  <p class="desc-1">На любой вкус</p>
+                <button class="btn-type__desc" type="submit">
+                  <p class="btn-type__text_desc">На любой вкус</p>
                 </button>
               </a>
             </div>
@@ -76,10 +74,10 @@
          <li class="feature-link">
             <div class="instruments">
               <a href="#">
-                <h4 class="name-1">Инструменты</h4>
+                <h4 class="feature-link__materials_name">Инструменты</h4>
                 <img src="img/icon-2.svg" alt="drill">
-                <button class="btn-type__1" type="submit">
-                  <p class="desc-1">НА ВСЕ СЛУЧАИ</p>
+                <button class="btn-type__desc" type="submit">
+                  <p class="btn-type__text_desc">НА ВСЕ СЛУЧАИ</p>
                 </button>
               </a>
             </div>
@@ -87,10 +85,10 @@
            <li class="feature-link">
             <div class="equipment">
               <a href="#">
-                <h4 class="name-1">Техника</h4>
+                <h4 class="feature-link__materials_name">Техника</h4>
                 <img src="img/icon-3.svg" alt="tractor">
-                <button class="btn-type__1" type="submit">
-                  <p class="desc-1">для стройки</p>
+                <button class="btn-type__desc" type="submit">
+                  <p class="btn-type__text_desc">для стройки</p>
                 </button>
               </a>
             </div>
@@ -98,10 +96,10 @@
            <li class="feature-link">
             <div class="sale">
               <a href="#">
-                <h4 class="name-1">Скидки 50%</h4>
+                <h4 class="feature-link__materials_name">Скидки 50%</h4>
                 <img src="img/icon-4.svg" alt="shopping-cart">
-                <button class="btn-type__1" type="submit">
-                  <p class="desc-1">На 350 ТОВАРОВ</p>
+                <button class="btn-type__desc" type="submit">
+                  <p class="btn-type__text_desc">На 350 ТОВАРОВ</p>
                 </button>
               </a>
             </div>
@@ -109,10 +107,10 @@
           <li class="feature-link">
             <div class="delivery">
               <a href="#">
-                <h4 class="name-1">Доставка</h4>
+                <h4 class="feature-link__materials_name">Доставка</h4>
                 <img src="img/icon-5.svg" alt="furgo">
-                <button class="btn-type__1" type="submit">
-                  <p class="desc-1">Бесплатно</p>
+                <button class="btn-type__desc" type="submit">
+                  <p class="btn-type__text_desc">Бесплатно</p>
                 </button>
               </a>
             </div>
@@ -123,7 +121,7 @@
                   <h2 class="slider-name">Перфораторы</h2>
                     <p class="slider-name__desc">Настоящие мужские игрушки</p>
                       <img src="img/slide.jpg" alt="slider" width="620px" height="266px">
-                      <a class="pop-link" href="catalog.html">ОТКРЫТЬ КАТАЛОГ
+                      <a class="main-link_pop" href="catalog.html">ОТКРЫТЬ КАТАЛОГ
                       </a>
               </a>
             </div>
@@ -135,70 +133,69 @@
             <!-- End section
  -->
     <section class="third">
-      <h2 class="pop-class">
+      <h2 class="main-pop">
         Популярные товары:
       </h2>
-      <a class="pop-link" href="catalog.html">Все популярные товары</a>
-      <div class="pop-items">
-        <ul class="main-pop__items">
-          <div class="main-pop__wrapper">
-            <li class="pop-item">
+      <a class="main-link_pop" href="catalog.html">Все популярные товары</a>
+      <ul class="main__items_pop">
+        <div class="main-wrapper__item_pop">
+            <li class="main-wrapper__item">
               <a href="#">
                 <img src="img/Object.png" alt="drill" width="184" height="164">
-                <h4 class="product-name">Перфоратор BOSCH<br>BFG 9000</h4>
-                  <p class="old-price"><del>32500P</del>
+                <h4 class="main-wrapper__item_name">Перфоратор BOSCH<br>BFG 9000</h4>
+                  <p class="main-wrapper__item_old-price"><del>32500P</del>
                   </p>
                     <a href="#">
                       <img src="img/Shape.svg" alt="red-arrow">
-                  <p class="new-price">25500P</p>
+                  <p class="main-wrapper__item_new-price">25500P</p>
                 </a>
               </a>
             </li>
           </div>
-          <div class="main-pop__wrapper__new">
-            <li class="pop-item">
+          <div class="main-wrapper__item_pop-new">
+            <li class="main-wrapper__item">
               <a href="#">
                 <img src="img/Object (1).png" alt="drill" width="127px" height="112px">
-              <h4 class="product-name">Перфоратор BOSCH<br>BFG 3000</h4>
-                <p class="old-price"><del>22500P</del>  </p>
+              <h4 class="main-wrapper__item_name">Перфоратор BOSCH<br>BFG 3000</h4>
+                <p class="main-wrapper__item_old-price"><del>22500P</del>  </p>
                 <a href="#">
                   <img src="img/Shape.svg" alt="red-arrow">
-                  <p class="new-price">15000P</p>
+                  <p class="main-wrapper__item_new-price">15000P</p>
                 </a>
               </a>
             </li>
           </div>
-          <div class="main-pop__wrapper">
-            <li class="pop-item">
+          <div class="main-wrapper__item_pop">
+            <li class="main-wrapper__item">
               <a href="#">
                 <img src="img/Object (2).png" alt="drill" width="144px" height="128px">
-              <h4 class="product-name">Перфоратор BOSCH<br>BFG 6000</h4>
-                <p class="old-price"><del>30500P</del></p>
+              <h4 class="main-wrapper__item_name">Перфоратор BOSCH<br>BFG 6000</h4>
+                <p class="main-wrapper__item_old-price"><del>30500P</del></p>
                 <a href="#">
                   <img src="img/Shape.svg" alt="red-arrow">
-                 <p class="new-price">25500P</p>
+                 <p class="main-wrapper__item_new-price">25500P</p>
                 </a>
               </a>
             </li>
           </div>
-          <div class="main-pop__wrapper__new">
-            <li class="pop-item">
+          <div class="main-wrapper__item_pop-new">
+            <li class="main-wrapper__item">
               <a href="#">
                 <img src="img/Object (2).png" alt="drill" width="144px" height="128px">
-              <h4 class="product-name">Перфоратор BOSCH<br>BFG 2000</h4>
+              <h4 class="main-wrapper__item_name">Перфоратор BOSCH<br>BFG 2000</h4>
                 <a href="#">
                   <img src="img/Shape.svg" alt="red-arrow">
-                 <p class="new-price">12500P</p>
+                 <p class="main-wrapper__item_new-price">12500P</p>
                 </a>
               </a>
             </li>
           </div>
         </ul>
       </div>
-      <h2 class="pop-class">
+      <h2 class="main-pop">
         Популярные Производители:
       </h2>
-      <a href="catalog.html">Все Производители:</a>
+      <a class="main-link_pop" href="catalog.html">Все Производители:</a>
       <div class="product-items">
         <ul class="main-product__items">
           <li class="product-item">
@@ -252,20 +249,20 @@
         </p>
       <div class="services">
         <ul class="main-services">
-          <a class="cursor-1" href="#">
-            <li class="main-service">
+          <a class="main-service__link" href="#">
+            <li class="main-service_option">
               <h4>Доставка</h4>
             </li>
           </a>
 
-          <a class="cursor-1" href="#">
-            <li class="main-service">
+          <a class="main-service__link" href="#">
+            <li class="main-service_option">
               <h4>Гарантия</h4>
             </li>
           </a>
 
-          <a class="cursor-1" href="#">
-            <li class="main-service">
+          <a class="main-service__link" href="#">
+            <li class="main-service_option">
               <h4>Кредит</h4>
             </li>
           </a>
@@ -317,17 +314,17 @@
             <!-- End section -->
   </main>
             <!-- End main -->
-  <footer>
-    <div class="main-logo__2">
+  <footer class="footer">
+    <div class="main-logo__sec">
       <a class="header-link" href="#">
-        <p class="tech-logo__2">Техномарт</p>
+        <p class="tech-logo__sec">Техномарт</p>
       </a>
     </div>
       <a href="#">
         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
         </p>
       </a>
-      <a class="phone-2" href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
+      <a class="phone-sec" href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
       <ul class="main-items">
         <li><a href="#">компания</a></li>
         <li><a href="#">новости</a></li>

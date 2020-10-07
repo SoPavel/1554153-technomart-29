@@ -31,7 +31,7 @@ ul{
   background-color: var(--basic-light-blue);
 }
 
-.main-logo__1{
+.header__logo{
   width: 220px;
   height: 47px;
   background-color: var(--basic-red);
@@ -39,18 +39,18 @@ ul{
 
 }
 
-.header-link{
+.header__link_name{
   font-size: 24px;
   color: var(--basic-white);
   text-transform: uppercase;
 
 }
 
-.tech-logo__1{
+.header__link_name{
   padding: 12px 57px 17px 55px;
 }
 
-.field-1:before{
+.search-form:before{
   content: url(../img/icon-search.svg);
   position: relative;
   top: 2px;
@@ -226,6 +226,17 @@ ul{
 
 }
 
+.btn-type__desc{
+  width: 135px;
+  height: 38px;
+  background-color: #fff;
+  opacity: 0.4;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+}
+
 .instruments{
   background-color: #3BBCE3;
 }
@@ -238,11 +249,22 @@ ul{
   background-color: #8ED78F;
 }
 
-.name-1{
+.feature-link__materials_name{
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
   text-align: left;
+  color: #fff;
+
+}
+
+.btn__type_desc{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
   color: #fff;
 
 }
@@ -263,7 +285,7 @@ ul{
 
 }
 
-.pop-class{
+.main-link_pop{
   font-size: 30px;
   font-weight: 400;
   line-height: 30px;
@@ -271,7 +293,7 @@ ul{
 
 }
 
-.pop-link{
+.main-link_pop{
   display: block;
   width: 192px;
   height: 38px;
@@ -284,35 +306,25 @@ ul{
 
 }
 
-.main-pop__wrapper__new{
+.main-wrapper__item_pop-new{
   background-image: url(../img/new.svg);
   background-position: left;
   background-repeat: no-repeat;
 
 }
 
-.product-name{
+.main-wrapper__item_name{
   color: #000;
 }
 
-.old-price{
+.main-wrapper__item_old-price{
   color: #A9A9A9;
 }
 
-.new-price{
+.main-wrapper__item_new-price{
   color: #fff;
 }
 
-.btn-type__1{
-  width: 135px;
-  height: 38px;
-  background-color: #fff;
-  opacity: 0.4;
-  outline: none;
-  border: none;
-  cursor: pointer;
-
-}
 
 .services{
   width: 240px;
@@ -330,7 +342,7 @@ ul{
 
 }
 
-.main-service{
+.main-service_option{
   width: 238px;
   height: 61px;
   border: 1px solid grey;
@@ -338,20 +350,10 @@ ul{
 
 }
 
-.cursor-1{
+.main-service__link{
   color: #fff;
 }
 
-.desc-1{
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  text-align: center;
-  color: #fff;
-
-}
 
 .txt-delivery{
   font-size: 30px;
@@ -412,7 +414,7 @@ footer{
   color: #ffda96;
 }
 
-.main-logo__2{
+.main-logo__sec{
   width: 220px;
   height: 68px;
   background-color: var(--basic-red);
@@ -420,12 +422,12 @@ footer{
 
 }
 
-.tech-logo__2{
+.tech-logo__sec{
   font-size: 28px;
   padding: 20px 41px 25px 41px;
 }
 
-footer p{
+.footer p{
   color: #fff;
 }
 
@@ -433,7 +435,7 @@ footer p{
   color: #fff;
 }
 
-.phone-2{
+.phone-sec{
   color: #fff;
 }
 
