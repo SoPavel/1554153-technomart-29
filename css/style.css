@@ -16,12 +16,6 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   padding: 0;
   font-family: 'Cuprum', sans-serif;
   background-color: var(--basic-white);
-
-}
-
-.first{
-  min-height: 278px;
-  background-color: var(--basic-light-blue);
 }
 
 a{
@@ -30,6 +24,11 @@ a{
 
 ul{
   list-style: none;
+}
+
+.first{
+  min-height: 278px;
+  background-color: var(--basic-light-blue);
 }
 
 .header{
