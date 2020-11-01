@@ -67,6 +67,7 @@ ul{
 
 .header__logo:active{
   background-color: #BA2732;
+  transition: .4s;
 }
 
 .header__link_name{
@@ -1374,7 +1375,6 @@ input::-webkit-input-placeholder{
   color: #ffda96;
 
 }
-
 
 .sec-nav__footer a:hover{
   border-bottom: 1px solid #ffda96;
