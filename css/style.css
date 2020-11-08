@@ -543,14 +543,15 @@ input[type="text"]{
   grid-row: 2/5;
   position: relative;
 
+
 }
 
 .slider-controls{
  position: absolute;
  width: 30px;
  height: 30px;
- top: 103%;
- left: 38.5%;
+ top: 744px;
+ left: 584px;
  display: flex;
  flex-wrap: wrap;
  justify-content: space-between;
@@ -561,22 +562,25 @@ input[type="text"]{
   border: none;
   outline: none;
   cursor: pointer;
+  position: absolute;
+
 }
 
 .slide-btn_left{
   position: absolute;
   background-color: transparent;
-  top: 88.5%;
-  left: 20.3%;
+  top: 640px;
+  left: 308px;
 
 }
 
 .slide-btn_right{
   position: absolute;
   background-color: transparent;
-  top: 88.5%;
-  left: 57%;
+  top: 640px;
+  left: 860px;
   transform: rotate(180deg);
+
 }
 
 .slider-controls__btn{
@@ -588,6 +592,7 @@ input[type="text"]{
   background-color: #fff;
   border-radius: 50%;
   cursor: pointer;
+
 
 }
 
@@ -619,6 +624,7 @@ input[type="text"]{
 
 .slider-current{
  display: block;
+
 }
 
 .btn-type__desc:hover{

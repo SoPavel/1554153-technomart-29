@@ -142,7 +142,7 @@ input[type="text"]{
 }
 
 .dws-input:hover::before{
-  content: url("../img/lupa 456.svg");
+  content: url("../img/lupa456.svg");
   position: absolute;
   top: 12px;
   left: 15px;

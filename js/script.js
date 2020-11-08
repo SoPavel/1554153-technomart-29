@@ -1,3 +1,5 @@
+                          // popup
+
 let btn = document.querySelector('.map-link');
 let modalLogin = document.querySelector('.modal-login');
 let modalClose = document.querySelector('.modal-close');
@@ -23,7 +25,7 @@ loginUser.focus();
     loginUser.value = storage;
 loginUser.focus();
   } else {
-    loginEmail.focus();
+    userEmail.focus();
   }
 });
 modalClose.addEventListener("click", function (evt) {
@@ -51,3 +53,5 @@ window.addEventListener("keydown", function (evt) {
     }
   }
 });
+
+
