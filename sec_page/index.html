@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="материалы, техника, инструменты, доставка">
   <meta name="description" content="У нас Вы можете найти самый большой выбор инструментов и материалов по низким ценам со сидкой!">
-  <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Техномарт</title>
 </head>
 <body class="page-body">
@@ -23,7 +23,7 @@
               </div>
           </form>
           <a class="header-mark" href="#">Закладки: 0</a>
-          <a class="header-basket" href="#">Корзина: 0</a>
+          <a class="header-basket" href="#">Корзина: 10</a>
           <button class="header-order" type="button">Оформить заказ
         </button>
     </div>
@@ -42,11 +42,11 @@
         </p>
       </a>
       </div>
-      <form class="search-form__user" action="get">
+      <form class="search-form__user" method="get" action="get">
         <div class="form-input">
           <label class="user-login" for="login"></label>
-          <input type="user" class="search-user" placeholder="РАВШАН ДЖАМШУТОВИЧ">
-        </div>
+          <input class="search-user" type="user" placeholder="Равшан Джамшутович">
+       </div>
         <a class="form-field personal-orders" href="#">Мои заказы
       </a>
       <a class="form-field personal-staff" href="#">Личный кабинет</a>
@@ -57,8 +57,8 @@
       <nav class="main-nav">
         <div class="nav-container">
           <ul class="nav-container__items">
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Компания</a></li>
+            <li><a href="index.html" target="_blank">Главная</a></li>
+            <li><a href="../index.html">Компания</a></li>
             <li><a href="#">Каталог</a></li>
             <li><a href="#">Новости</a></li>
             <li><a href="#">Спецпредложения</a></li>
@@ -225,7 +225,7 @@
         </div>
       </div>
       <aside class="left-column">
-          <div class="left-column__wrapper">
+         <div class="left-column__wrapper">
             <input class="filter filter__main" type="filter" size="30" placeholder="ФИЛЬТР:">
                <h4 class="columns-header first-header">Цена:</h4>
              <div class="range-mark">
@@ -286,7 +286,7 @@
                   <label for="filter-electro">Сетевые</label>
                 </li>
                 </ul>
-              <button class="input-btn">Показать</button>
+            <a class="input-btn" href="https://echo.htmlacademy.ru/">ПОКАЗАТЬ</a>
           </div>
       </aside>
                     <!--  End aside -->

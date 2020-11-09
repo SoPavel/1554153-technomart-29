@@ -14,7 +14,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   width: 1200px;
   margin: 0 auto;
   padding: 0;
-  font-family: 'Cuprum',  'PT Sans', sans-serif;
+  font-family: 'Cuprum', 'PT Sans', sans-serif;
   background-color: var(--basic-white);
 }
 
@@ -92,7 +92,7 @@ ul{
 input[type="text"]{
   width: 230px;
   height: 42px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -170,7 +170,7 @@ input[type="text"]{
   width: 150px;
   height: 100%;
   color: #fff;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -202,7 +202,7 @@ input[type="text"]{
   width: 150px;
   height: 42px;
   background-color: #63A63E;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -241,11 +241,11 @@ input[type="text"]{
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
-  margin-left: 115px;
-  margin-top: 44px;
+  margin-left: 112px;
+  margin-top: 42px;
   color: var(--basic-red);
 }
 
@@ -255,14 +255,14 @@ input[type="text"]{
   border: 3px solid #FFF;
   box-sizing: border-box;
   text-align: center;
-  margin-left: 90px;
+  margin-left: 78px;
   margin-top: 12px;
 
 }
 
 .phone{
   display: block;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 21px;
   font-weight: 700;
   line-height: 30px;
@@ -319,7 +319,7 @@ input[type="text"]{
   padding: 0;
   padding-bottom: 2px;
   padding-left: 2px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 21px;
   font-weight: 400;
   line-height: 21px;
@@ -359,7 +359,7 @@ input[type="text"]{
 .reg{
   padding: 0;
   margin: 0;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 21px;
   font-weight: 400;
   line-height: 21px;
@@ -405,7 +405,7 @@ input[type="text"]{
   justify-content: space-around;
   align-items: center;
   color: #fff;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -593,7 +593,6 @@ input[type="text"]{
   border-radius: 50%;
   cursor: pointer;
 
-
 }
 
 .slider-controls__btn:focus{
@@ -722,7 +721,7 @@ input[type="text"]{
   margin: 0;
   padding-left: 27px;
   padding-top: 4px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 30px;
   font-weight: 400;
   line-height: 30px;
@@ -838,7 +837,7 @@ input[type="text"]{
 .buy-btn, .back-btn{
   margin-top: 38px;
   margin-left: 40px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -913,7 +912,7 @@ input[type="text"]{
   margin-bottom: 0;
   padding-top: 12px;
   color: #000;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -925,7 +924,7 @@ input[type="text"]{
 .main-list__bfg{
   margin: 0;
   color: #000;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -936,7 +935,7 @@ input[type="text"]{
 .main-list__item_old-price{
   margin: 0;
   padding-top: 8px;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 17px;
   font-weight: 700;
   line-height: 18px;
@@ -965,7 +964,7 @@ input[type="text"]{
 .main-list__item_current-price{
   margin: 0;
   padding-left: 7px;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   text-align: center;
   padding-top: 9px;
   font-size: 17px;
@@ -1054,7 +1053,7 @@ input[type="text"]{
 .service{
   margin: 0;
   padding-top: 61px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 30px;
   font-weight: 400;
   line-height: 30px;
@@ -1074,7 +1073,7 @@ input[type="text"]{
 .service-desc{
   margin-top: 25px;
   margin-bottom: 0;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -1102,7 +1101,7 @@ input[type="text"]{
 .main-service{
   min-width: 238px;
   height: 61px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 21px;
   font-weight: 700;
   line-height: 30px;
@@ -1160,7 +1159,7 @@ input[type="text"]{
 .delivery-service__header{
   display: inline-block;
   margin: 0;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 30px;
   font-weight: 400;
   line-height: 30px;
@@ -1171,7 +1170,7 @@ input[type="text"]{
 
 .delivery-service__header_txt{
   margin-top: 30px;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -1216,7 +1215,7 @@ input[type="text"]{
   height: 130px;
   margin: 0;
   margin-top: 24px;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -1247,7 +1246,7 @@ input[type="text"]{
 .sec-item__option{
   margin: 0;
   padding-top: 4px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -1277,7 +1276,7 @@ input[type="text"]{
   padding-top: 10px;
   box-sizing: border-box;
   text-transform: uppercase;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -1303,7 +1302,7 @@ input[type="text"]{
   padding-top: 10px;
   box-sizing: border-box;
   text-transform: uppercase;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -1400,7 +1399,7 @@ input[type="text"]{
   height: 38px;
   outline: none;
   border: 2px solid #d4d4d4;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -1566,7 +1565,7 @@ input[type="text"]{
 .adress{
   margin: 0;
   margin-top: 22px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -1576,7 +1575,7 @@ input[type="text"]{
 .phone-footer{
   padding-top: 1px;
   padding-left: 1px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -1589,7 +1588,7 @@ input[type="text"]{
   padding: 16px 41px 25px 41px;
   margin: 0;
   text-transform: uppercase;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
 
 }
 
@@ -1613,7 +1612,7 @@ input[type="text"]{
 
 .main-items__footer a{
   color: #fff;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -1644,7 +1643,7 @@ input[type="text"]{
 }
 
 .sec-nav__footer a{
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -1729,7 +1728,7 @@ input[type="text"]{
 
 .feedback{
   padding-right: 54px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
@@ -1738,7 +1737,7 @@ input[type="text"]{
 
 .developed{
   padding-right: 12px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;

@@ -14,7 +14,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   width: 1200px;
   margin: 0 auto;
   padding: 0;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', 'PT Sans', sans-serif ;
   background-color: var(--basic-white);
 
 }
@@ -117,7 +117,7 @@ ul{
 input[type="text"]{
   width: 230px;
   height: 42px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -194,7 +194,7 @@ input[type="text"]{
   width: 150px;
   height: 100%;
   color: #fff;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -226,7 +226,7 @@ input[type="text"]{
   width: 150px;
   height: 42px;
   background-color: #63A63E;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -260,15 +260,15 @@ input[type="text"]{
 }
 
 .main-wrapper__intro{
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
-  margin-left: 20px;
-  margin-top: 44px;
+  margin-left: 30px;
+  margin-top: 42px;
   color: var(--basic-red);
 
 }
@@ -279,14 +279,14 @@ input[type="text"]{
   border: 3px solid #FFF;
   box-sizing: border-box;
   text-align: center;
-  margin-left: 70px;
+  margin-left: 40px;
   margin-top: 12px;
 
 }
 
 .phone{
   display: block;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 21px;
   font-weight: 700;
   line-height: 30px;
@@ -325,7 +325,7 @@ input[type="text"]{
 input[type="user"]{
   width: 299px;
   height: 45px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -351,20 +351,16 @@ input[type="user"]{
   transition: .4s;
 }
 
-.form-input{
-  margin-top: 5px;
-}
-
-.form-input:before{
+.search-form__user:before{
   content: url("../img/user_1.svg");
   position: absolute;
   left: 15px;
-  top: 25px;
+  top: 22px;
   z-index: 550;
   opacity: 20%;
 }
 
-.form-input:hover:before{
+.search-form__user:hover:before{
   opacity: 100%;
   transition: .4s;
 }
@@ -382,22 +378,22 @@ input[type="user"]{
 
 }
 
-.form-input:after{
+.search-form__user:after{
   content: url("../img/icon-logout.svg");
   position: absolute;
   z-index: 222;
-  top: 27px;
+  top: 24px;
   right: 17px;
   opacity: 20%;
 
 }
 
-.form-input:hover:after{
+.search-form__user:hover:after{
   opacity: 100%;
   transition: .4s;
 }
 
-.form-input:active{
+.search-form__user:active{
   opacity: 70%;
 }
 
@@ -475,7 +471,7 @@ input[type="user"]{
   justify-content: space-around;
   align-items: center;
   color: #fff;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -586,7 +582,7 @@ left: -26px;
   color: var(--basic-dark-blue);
   background-color: var(--basic-light-blue);
   box-sizing: border-box;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 30px;
   font-weight: 400;
   line-height: 28px;
@@ -794,7 +790,7 @@ left: -26px;
 .buy-btn, .back-btn{
   margin-top: 38px;
   margin-left: 40px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -880,7 +876,7 @@ left: -26px;
   margin-bottom: 0;
   padding-top: 12px;
   color: #000;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -892,7 +888,7 @@ left: -26px;
 .main-list__bfg{
   margin: 0;
   color: #000;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -903,7 +899,7 @@ left: -26px;
 .main-list__item_old-price{
   margin: 0;
   padding-top: 8px;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 17px;
   font-weight: 700;
   line-height: 18px;
@@ -959,7 +955,7 @@ left: -26px;
 .main-list__item_new-price,
 .main-list__item_current-price{
   margin: 0;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   text-align: center;
   padding-top: 10px;
   font-size: 17px;
@@ -1004,6 +1000,7 @@ left: -26px;
 
 .sec-page_selected{
   margin-left: 0;
+  background-color: var(--basic-red);
 }
 
 .sec-page:nth-child(n+2){
@@ -1028,7 +1025,7 @@ left: -26px;
 .info{
   width: 907px;
   height: 74px;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -1042,6 +1039,7 @@ left: -26px;
   width: 220px;
   height: 1200px;
   float: left;
+  margin-left: 130px;
 
 }
 
@@ -1083,7 +1081,7 @@ left: -26px;
 }
 
 .filter__main-item legend{
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 17px;
   font-weight: 400;
   line-height: 18px;
@@ -1147,7 +1145,7 @@ left: -26px;
   padding-left: 5px;
   width: 95px;
   height: 38px;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   border: none;
   background-color: #F7F3EC;
   font-size: 17px;
@@ -1185,7 +1183,7 @@ left: -26px;
 
 .columns-header{
   margin: 0;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 17px;
   font-weight: 700;
   line-height: 30px;
@@ -1232,7 +1230,7 @@ left: -26px;
   margin: 0;
   margin-top: 3px;
   padding-left: 35px;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 15px;
   font-weight: 400;
   line-height: 19px;
@@ -1300,11 +1298,12 @@ left: -26px;
 }
 
 .input-btn{
+  display: inline-block;
   width: 220px;
   height: 38px;
   margin-top: 34px;
   background-color: #fff;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
@@ -1313,6 +1312,9 @@ left: -26px;
   border: 1px solid #E5E5E5;
   outline: none;
   cursor: pointer;
+  color: #000;
+  box-sizing: border-box;
+  padding-top: 7px;
 
 }
 
@@ -1328,7 +1330,7 @@ left: -26px;
 .article-header{
   margin: 0;
   padding-top: 65px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 30px;
   font-weight: 400;
   line-height: 30px;
@@ -1338,7 +1340,7 @@ left: -26px;
 
 .article p{
   padding-top: 13px;
-  font-family: PT Sans;
+  font-family: 'PT Sans';
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -1381,7 +1383,7 @@ left: -26px;
 .adress{
   margin: 0;
   margin-top: 22px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -1391,7 +1393,7 @@ left: -26px;
 .phone-footer{
   padding-top: 1px;
   padding-left: 1px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -1404,7 +1406,7 @@ left: -26px;
   padding: 16px 41px 25px 41px;
   margin: 0;
   text-transform: uppercase;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
 
 }
 
@@ -1427,7 +1429,7 @@ left: -26px;
 
 .main-items__footer a{
   color: #fff;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -1458,14 +1460,13 @@ left: -26px;
 }
 
 .sec-nav__footer a{
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   color: #ffda96;
 
-  }
-
+}
 
 .sec-nav__footer a:hover{
   border-bottom: 1px solid #ffda96;
@@ -1543,7 +1544,7 @@ left: -26px;
 
 .feedback{
   padding-right: 54px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
@@ -1552,7 +1553,7 @@ left: -26px;
 
 .developed{
   padding-right: 12px;
-  font-family: Cuprum;
+  font-family: 'Cuprum';
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
